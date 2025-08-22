@@ -26,7 +26,7 @@ def speak(text):
 
 
 def aiProcess(command):
-    client = OpenAI(api_key="sk-proj-Wo2_2DL3KW6n1QxkSWaC1iMvr6zt9xlwMaOt-7Liknsf5gM_CHnLh5EoP6A-Fzn1-2UWvE4RsA")
+    client = OpenAI(api_key="sk-proj-")
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
